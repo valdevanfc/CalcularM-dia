@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Média</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body class="corpo">
+    <section class="corpo__caixa">
+        <div class="titulo"><h1 >CALCULE A MÉDIA DO SEU ALUNO AQUI!</h1></div>
+        <div class="ficha_caixa">
+            <div class="ficha ficha_aluno">
+                <label for="aluno">Nome</label>
+                <input type="text" name="txt" id="caixa_aluno">
+            </div>
+            <div class="ficha ficha_n1">
+                <label for="nota1">Nota 1</label>
+                <input type="number" name="num1" id="caixa_n1">
+            </div>  
+            <div class="ficha ficha_n2">
+                <label for="nota2">Nota 2</label>
+                <input type="number" name="num2" id="caixa_n2">
+            </div>
+            <div class="ficha ficha_n3">
+                <label for="nota3">Nota 3</label>
+                <input type="number" name="num3" id="caixa_n3">
+            </div>
+            <div class="ficha ficha_n4">
+                <label for="nota4">Nota 4</label>
+                <input type="number" name="num4" id="caixa_n4">
+            </div>
+        </div>
+        <div>
+            <input type="button" onclick="calcularMedia()" value="CALCULAR" id="botao_media"></input>
+        </div>
+        <div id="resultado">RESULTADO DA MÉDIA...</div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
